@@ -10,7 +10,6 @@ public class Ejercicio8_2 {
         bucle1.imprimirSuma();
     }
 }
-
 class Ejercicio8_2_1 {
     public int numero;
     public int digitos = 0;
@@ -20,7 +19,6 @@ class Ejercicio8_2_1 {
         System.out.println("Ingrese un numero");
         numero = input.nextInt();
     }
-
     public void separarDigitos() {
 
         while (numero != 0) {
@@ -30,6 +28,6 @@ class Ejercicio8_2_1 {
         }
     }
     public void imprimirSuma() {
-        System.out.println("La suma de los digitos del numero introducido es: " + digitos);
+        System.out.println("La suma de los digitos del numero introducido es: \n" + digitos);
     }
 }

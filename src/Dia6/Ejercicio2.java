@@ -24,7 +24,7 @@ public class Ejercicio2 {
     }
     public void validarPrimo() {
         if (valorIngresado <= 1) {
-            System.out.println("El valor es un numero primo");
+            System.out.println("El valor no es un numero primo");
         } else if (valorIngresado == 2 || valorIngresado == 3) {
             System.out.println("El valor es un numero primo");
         } else if (valorIngresado % 2 == 0) {
